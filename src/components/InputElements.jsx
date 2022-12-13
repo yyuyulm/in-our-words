@@ -1,12 +1,9 @@
 import { Formik, Field, Form } from 'formik';
 import { useState , useContext } from 'react';
-//import { SubmitionContext } from '../App';
 import './InputElements.css'
 
 
 const InputElements = (props) => {
-  //const stage = useContext(SubmitionContext).stage
-  //const show = stage != 1;
 
   const [submitted,setSubmitted] = useState(false)
 
@@ -18,9 +15,9 @@ const InputElements = (props) => {
     }}
     onSubmit={async(values , actions) => {
       //alert(JSON.stringify(values, null, 2));
-      actions.setSubmitting(false);
       setSubmitted(true);
       //await new Promise((r) => setTimeout(r, 5000));
+      actions.setSubmitting(false);
       props.callback(values);
     }}
   >

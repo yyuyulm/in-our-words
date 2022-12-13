@@ -60,11 +60,14 @@ body {
 
 #innerWindow{
   flex-grow: 1;
+  justify-content: start safe;
+  overflow: clip;
 }
 
 #title{
   padding: 0 4px;
   flex-grow: 1;
+  font-size: 1em;
 }
 
 .icon{
@@ -78,6 +81,10 @@ img{
   height: 100%;
   border: 2px outset #666;
   background-color: rgb(243, 243, 243);
+}
+
+box{
+  min-height: fit-content;    
 }
 
 button {

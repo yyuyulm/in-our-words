@@ -1,0 +1,27 @@
+#half{
+    flex-grow: 1;
+    justify-content: start;
+    align-items: stretch;
+    margin: 0 10px;
+    min-height: min-content;
+    overflow: auto;
+}
+
+#split{
+    align-content: center;
+    justify-content: space-evenly;
+    height: 100%;
+    max-height: 100%;
+    margin: 10px 0;
+    overflow: auto;
+}
+
+.addy{
+    margin-bottom: 0.5em;
+    min-height: min-content;
+}
+
+.letters{
+    line-height: 1.5em;
+    margin-bottom: 0.5em;
+}

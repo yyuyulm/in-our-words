@@ -1,3 +1,27 @@
 p{
+    margin-top: 5px;
     overflow: auto;
+}
+
+span{
+    margin: 0 5px;
+    padding: 0 2px;
+}
+
+#words{
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    gap: 1.2em, 5px;
+    flex-grow : 1;
+    border: 2px inset #aaa;
+    background-color: rgb(255, 255, 255);
+    margin: 15px 0;
+    overflow: auto;
+}
+
+#inputs{
+    max-width: 720px;
+    padding: 5px 10px;
+    max-height: 100%;
 }
