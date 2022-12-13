@@ -16,7 +16,7 @@ const InputElements = (props) => {
     onSubmit={async(values , actions) => {
       //alert(JSON.stringify(values, null, 2));
       setSubmitted(true);
-      //await new Promise((r) => setTimeout(r, 5000));
+      await new Promise((r) => setTimeout(r, 5000));
       actions.setSubmitting(false);
       props.callback(values);
     }}
