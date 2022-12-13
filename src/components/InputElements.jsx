@@ -27,7 +27,7 @@ const InputElements = (props) => {
         <Field
         id="from"
         name="from"
-        placeholder="mylove@earth.com"
+        placeholder="mylove@earth.net"
         type="text"
         /><br/>
       </div>
@@ -37,7 +37,7 @@ const InputElements = (props) => {
         <Field
           id="to"
           name="to"
-          placeholder="yourlove@earth.com"
+          placeholder="yourlove@earth.net"
           type="text"
         /><br/>
         <label htmlFor="original"></label>
